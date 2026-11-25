@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kopi Senja</title>
+
+    <link rel="stylesheet" href="style.order.css">
+    
+</head>
+
+<body>
+
+    <!-- INFORMASI KOPI SENJA -->
+    <section id="lokasi">
+
+    <div class="judul-navbar">
+        <h1 id="judul">Tentang Kopi Senja</h1>
+
+        <a href="index.html">Beranda</a>
+    </div>
+
+    <p id="deskripsi">
+        Kopi Senja merupakan tempat nyaman untuk bersantai.
+    </p>
+
+    <button type="button" onclick="ubahTeks()">
+        Ubah Informasi
+    </button>
+
+    <div id="daftarInformasi"></div>
+
+</section>
+
+
+    <!-- FORMULIR PEMESANAN -->
+    <section id="halamanForm">
+
+        <h1>Formulir Pemesanan</h1>
+        <h2>Warkop Kopi Senja</h2>
+
+        <form id="orderForm">
+
+            <label>Nama Pelanggan:</label><br>
+            <input type="text" id="nama" placeholder="Nama lengkap" required>
+            <br><br>
+
+            <label>Nomor Meja:</label><br>
+            <input type="text" id="meja" placeholder="Nomor meja" required>
+            <br><br>
+
+            <label>Pilih Makanan:</label><br>
+            <select id="makananSelect">
+                <option>CHEESECAKE</option>
+                <option>DONAT</option>
+            </select>
+            <br><br>
+
+            <label>Pilih Minuman:</label><br>
+            <select id="minumanSelect">
+                <option>AMERICANO</option>
+                <option>CAPPUCINO</option>
+                <option>CAFFE LATTE</option>
+            </select>
+            <br><br>
+
+            <label>Jumlah Pesanan:</label><br>
+            <input type="number" id="jumlah" min="1" required>
+            <br><br>
+
+            <label>Jenis Pesanan:</label><br>
+
+            <input type="radio" name="pesanan" value="Makan di tempat" required>
+            Makan di tempat
+
+            <input type="radio" name="pesanan" value="Bungkus">
+            Bungkus
+
+            <br><br>
+
+            <label>Catatan:</label><br>
+            <textarea id="catatan" placeholder="Catatan Tambahan"></textarea>
+
+            <br><br>
+
+            <button type="submit">Pesan Sekarang</button>
+
+        </form>
+
+    </section>
+
+
+    <!-- HASIL PEMESANAN -->
+    <section id="halamanHasil" style="display:none;">
+
+        <h1>Hasil Pemesanan</h1>
+
+        <div id="hasil"></div>
+
+        <button type="button" onclick="kembali()">
+            Kembali
+        </button>
+
+    </section>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="form.js"></script>
+
+</body>
+
+</html>
