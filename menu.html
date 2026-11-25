@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menu - Kopi Senja</title>
+    <link rel="stylesheet" href="cekmenu.css">
+</head>
+<body>
+
+    <header>
+        <h1>KOPI SENJA</h1>
+        <p>Teman ngopi di setiap cerita</p>
+        <a href="member.html" class="tautan">Daftar Member</a>
+    </header>
+
+    <main>
+        <button onclick="tampilkan('semua')">Semua</button>
+        <button onclick="tampilkan('kopi')">Kopi</button>
+        <button onclick="tampilkan('dessert')">Dessert</button>
+
+        <section id="kopi">
+            <h2>Menu Kopi</h2>
+
+            <div class="kartu">
+                <h3>Americano</h3>
+                <p>Kopi espresso dengan air</p>
+                <p class="harga">Rp15.000</p>
+            </div>
+
+            <div class="kartu">
+                <h3>Cappuccino</h3>
+                <p>Espresso dengan susu dan foam</p>
+                <p class="harga">Rp20.000</p>
+            </div>
+
+            <div class="kartu">
+                <h3>Caffe Latte</h3>
+                <p>Espresso dengan susu yang lembut</p>
+                <p class="harga">Rp18.000</p>
+            </div>
+        </section>
+
+        <section id="dessert">
+            <h2>Menu Dessert</h2>
+
+            <div class="kartu">
+                <h3>Cheesecake</h3>
+                <p>Kue lembut dengan rasa keju</p>
+                <p class="harga">Rp18.000</p>
+            </div>
+
+            <div class="kartu">
+                <h3>Donat</h3>
+                <p>Donat dengan berbagai topping</p>
+                <p class="harga">Rp10.000</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Jl. Airlangga No. 10 | 0831-2960-4807</p>
+        <p>&copy; 2026 Kopi Senja</p>
+    </footer>
+
+    <script src="javanya.js"></script>
+</body>
+</html>
