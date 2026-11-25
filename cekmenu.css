@@ -1,0 +1,55 @@
+body {
+    font-family: Arial;
+    background: #FFF8F0;
+    color: #3E2723;
+    margin: 0;
+}
+
+header, footer {
+    background: #4E342E;
+    color: #F5D6A5;
+    text-align: center;
+    padding: 25px;
+}
+
+.tautan {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 20px;
+    background: #F5D6A5;
+    color: #4E342E;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+main {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+button {
+    padding: 8px 20px;
+    background: #6F4E37;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+h2 {
+    color: #6F4E37;
+}
+
+.kartu {
+    background: #6F4E37;
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.harga {
+    color: #F5D6A5;
+    font-weight: bold;
+}
