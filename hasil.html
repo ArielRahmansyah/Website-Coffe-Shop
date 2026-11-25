@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kartu Member - Kopi Senja</title>
+    <link rel="stylesheet" href="cekmember.css">
+</head>
+<body>
+
+    <header>
+        <h1>KOPI SENJA</h1>
+        <p>Pendaftaranmu berhasil!</p>
+    </header>
+
+    <main class="lebar">
+
+        <h2>Kartu Member</h2>
+
+        <div class="kartu">
+            <p>Nama: <b id="hasilNama"></b></p>
+            <p>No. WhatsApp: <b id="hasilHp"></b></p>
+            <p>Email: <b id="hasilEmail"></b></p>
+            <p>Menu Favorit: <b id="hasilMenu"></b></p>
+            <p>Tipe Member: <b id="hasilTipe"></b></p>
+            <p class="diskon">Diskon: <span id="hasilDiskon"></span></p>
+        </div>
+
+        <!-- Daftar semua member -->
+        <h2>Daftar Member Terdaftar</h2>
+        <p>Total member: <b id="totalMember"></b></p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>WhatsApp</th>
+                    <th>Email</th>
+                    <th>Menu Favorit</th>
+                    <th>Tipe</th>
+                </tr>
+            </thead>
+            <tbody id="isiTabel"></tbody>
+        </table>
+
+        <a href="member.html"><button>Daftar Member Lain</button></a>
+        <button class="hapus" onclick="hapusSemua()">Hapus Semua Daftar</button>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kopi Senja</p>
+    </footer>
+
+    <script src="hasilnya.js"></script>
+</body>
+</html>
