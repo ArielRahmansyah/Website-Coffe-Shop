@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daftar Member - Kopi Senja</title>
+    <link rel="stylesheet" href="cekmember.css">
+</head>
+<body>
+
+    <header>
+        <h1>KOPI SENJA</h1>
+        <p>Jadi member dan dapatkan diskon di setiap pembelian</p>
+    </header>
+
+    <main>
+        <h2>Daftar Member</h2>
+
+        <form action="hasil.html" method="get" onsubmit="return cekForm()">
+            Nama
+            <input type="text" name="nama" id="nama">
+
+            No. WhatsApp
+            <input type="text" name="hp" id="hp">
+
+            Email
+            <input type="text" name="email" id="email">
+
+            Menu Favorit
+            <select name="menu" id="menu">
+                <option value="">-- Pilih menu --</option>
+                <option value="Americano">Americano</option>
+                <option value="Cappuccino">Cappuccino</option>
+                <option value="Caffe Latte">Caffe Latte</option>
+                <option value="Cheesecake">Cheesecake</option>
+                <option value="Donat">Donat</option>
+            </select>
+
+            Tipe Member
+            <select name="tipe" id="tipe">
+                <option value="">-- Pilih tipe --</option>
+                <option value="Silver">Silver (diskon 5%)</option>
+                <option value="Gold">Gold (diskon 10%)</option>
+            </select>
+
+            <button type="submit">Daftar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kopi Senja</p>
+    </footer>
+
+    <script src="cekmember.js"></script>
+</body>
+</html>
