@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Coffee Shop</title>
+
+    <!-- Menghubungkan CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Menghubungkan JavaScript -->
+    <script src="harga.js" defer></script>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+        <div class="navbar">
+
+            <span>☕ Kopi Senja</span>
+
+            <nav>
+                <a href="#beranda">Home</a>
+                <a href="#Reservasi">Reservasi</a>
+                <a href="menu.html">Menu</a>
+                <a href="order.html">Order</a>
+            </nav>
+
+        </div>
+
+        <img src="coffe.jpeg" alt="Coffee Image">
+
+    </header>
+
+    <main>
+
+        <!-- INFORMASI KEDAI -->
+        <section class="tentang" id="beranda">
+
+            <h1 id="judul">
+                Selamat Datang di Kopi Senja
+            </h1>
+
+            <p id="deskripsi">
+                Kopi Senja adalah kedai kopi yang menyediakan
+                berbagai pilihan kopi dan minuman dengan suasana
+                nyaman untuk bersantai.
+            </p>
+
+            <button type="button" onclick="ubahTeks()">
+                Ubah Informasi
+            </button>
+
+        </section>
+
+
+        <!-- KEUNGGULAN KEDAI -->
+        <section class="keunggulan">
+
+            <h2>Keunggulan Kedai</h2>
+
+            <div id="daftarKeunggulan"></div>
+
+        </section>
+
+
+        <br><br><br><br>
+
+
+        <!-- FORMULIR RESERVASI -->
+        <section id="Reservasi">
+
+            <h2>Reservasi</h2>
+
+            <form id="formReservasi">
+
+                <h2>Formulir Reservasi</h2>
+
+                <label>Nama:</label><br>
+                <input type="text" id="nama" required><br><br>
+
+                <label>Nomor WhatsApp:</label><br>
+                <input type="text" id="whatsapp" required><br><br>
+
+                <label>Tanggal:</label><br>
+                <input type="date" id="tanggal" required><br><br>
+
+                <label>Jam:</label><br>
+                <input type="time" id="jam" required><br><br>
+
+                <label>Jumlah Orang:</label><br>
+                <input type="number" id="orang" required><br><br>
+
+                <label>Catatan:</label><br>
+                <textarea id="catatan"></textarea><br><br>
+
+                <label>Upload Bukti Reservasi:</label><br>
+                <input type="file" id="bukti"><br><br>
+
+                <button type="submit">
+                    Kirim Reservasi
+                </button>
+            </form>
+        </section>
+
+    </main>
+
+</body>
+</html>
+
