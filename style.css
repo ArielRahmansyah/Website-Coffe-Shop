@@ -224,3 +224,39 @@ textarea {
 .tentang button:hover {
     background-color: #8d6e63;
 }
+
+/* TAMPILAN HASIL RESERVASI */
+
+.hasil-reservasi {
+    max-width: 475px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.hasil-reservasi h1 {
+    color: #795548;
+    font-size: 26px;
+    margin-bottom: 18px;
+}
+
+.hasil-reservasi p {
+    color: #3E2723;
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.hasil-reservasi button {
+    background-color: #5D4037;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.hasil-reservasi button:hover {
+    background-color: #795548;
+}
